@@ -19,12 +19,22 @@ header a {
     text-align: center;
     text-decoration: none;
 }
+
 a:hover, a:active {
     background-color: rgb(0, 255, 255, 0.5);
 }
 li {    
     list-style: none;
     display: inline-block;
+}
+h1{
+    text-align: left;
+    color: black;
+    border: 5px solid rgb(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+h1:hover {
+    background-color: rgb(255, 255, 255, 0.5);
 }
 .container {
     display: grid;
@@ -34,6 +44,9 @@ li {
 .div {
     background-color: rgba(255, 255, 255, 0.2);
     border: 2px solid rgb(255, 255, 255, 0.5);
+    margin: 5px;
+    padding: 5px;
+
 }
 div:hover {
     background-color: rgb(255, 255, 255, 0.75);
@@ -52,7 +65,10 @@ img {
 }
 
 footer {
-    color: blue;
+    color: black;
     clear: both;
     text-align: center;
+}
+footer:hover {
+    background-color: rgb(255, 255, 255, 0.75);
 }
